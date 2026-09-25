@@ -1,0 +1,114 @@
+Java Operators - Notes
+
+1. Arithmetic Operators
+Description:
+Arithmetic operators are used to perform mathematical calculations such as addition, subtraction, multiplication, division, and modulus.
+
+Operators:
++  -> Addition
+-  -> Subtraction
+*  -> Multiplication
+/  -> Division
+%  -> Modulus (remainder)
+
+Example:
+int a = 20;
+int b = 10;
+
+System.out.println(a + b);   // 30
+System.out.println(a - b);   // 10
+System.out.println(a * b);   // 200
+System.out.println(a / b);   // 2
+System.out.println(a % b);   // 0
+
+2. Assignment Operators
+Description:
+Assignment operators are used to assign values to variables and also combine assignment with arithmetic operations.
+
+Operators:
+=   -> Assign value
++=  -> Add and assign
+-=  -> Subtract and assign
+*=  -> Multiply and assign
+/=  -> Divide and assign
+%=  -> Modulus and assign
+
+Example:
+int a = 10;
+a += 5;      // a = a + 5
+System.out.println(a);  // 15
+
+int b = 20;
+b *= 2;      // b = b * 2
+System.out.println(b);  // 40
+
+3. Unary Operators
+Description:
+Unary operators work with a single operand. They are used to increase, decrease, or invert a value.
+
+Operators:
++   -> Positive sign
+-   -> Negative sign
+++  -> Increment by 1
+--  -> Decrement by 1
+!   -> Logical NOT
+
+Example:
+int a = 10;
+a++;
+System.out.println(a);  // 11
+
+int b = 20;
+b--;
+System.out.println(b);  // 19
+
+boolean flag = true;
+System.out.println(!flag);  // false
+
+4. Relational Operators
+Description:
+Relational operators compare two values and return either true or false.
+
+Operators:
+==  -> Equal to
+!=  -> Not equal to
+>   -> Greater than
+<   -> Less than
+>=  -> Greater than or equal to
+<=  -> Less than or equal to
+
+Example:
+int num1 = 10;
+int num2 = 20;
+
+System.out.println(num1 == num2);  // false
+System.out.println(num1 != num2);  // true
+System.out.println(num1 < num2);   // true
+System.out.println(num1 > num2);   // false
+
+5. Logical Operators
+Description:
+Logical operators are used to combine multiple conditions and decide the final result.
+
+Operators:
+&&  -> Logical AND
+||  -> Logical OR
+!   -> Logical NOT
+
+Example:
+int num1 = 10;
+int num2 = 20;
+
+System.out.println((num1 < num2) && (num1 != num2));  // true
+System.out.println((num1 > num2) || (num1 < num2));  // true
+System.out.println(!(num1 > num2));  // true
+
+Summary:
+- Arithmetic operators are used for math.
+- Assignment operators assign values.
+- Unary operators work on one value.
+- Relational operators compare values.
+- Logical operators are used for condition checking.
+
+Important Note:
+Operators are the symbols used to perform operations on variables and values. They are very important in Java programming because they help in decision making, calculations, and control flow.
